@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	text-decoration: none;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	height: 10vh;
+}
+header h1{
+	margin:auto 10px;
+}
+#home{
+		background-image:url("image/background.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: white;
+		width: 100vw;
+        height: 100vh;
+}
+#homeBox{
+	display: flex;
+	justify-content: space-around;
+	height: 80vh;
+	margin: 5vh 0; 
+}
+#homeText{
+	flex-basis: 30%;
+	align-self: center;
+}
+#home img{
+	flex-basis: 30%;
+}
+#homeText h1{
+font-size: 50px;
+}
+#homeText p{
+font-size: 25px;	
+}
+
+
+
+nav{
+	margin: auto 10px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+ 
+}
+nav li{
+	margin-right: 20px;
+}
+nav li a{
+	text-decoration: none;
+color: white;
+}
+

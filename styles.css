@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+	text-decoration: none;
+}
+
+img{
+	background-size: 500px 400px;
+}
+
+#home{
+		background-image:url("image/green.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 100vh;
+		font-size:larger;
+	}
+header{
+	display: flex;
+	justify-content: space-between;
+}
+nav ul{
+	display: flex;
+    list-style: none;
+    background-color: blue;
+}
+nav li{
+	margin-right: 20px;
+}
+nav li a{
+	text-decoration: none;
+color: white;
+}
+#home h2{
+color: blue;
+text-align:justify;
+font-size: 30px;
+}
+#home h1{
+	color:#800020;
+}
+#home h3{
+	color: 	rgb(139, 64, 0);
+	text-align: center;
+}
+
+h1{
+	color:blue;
+  }
+ header h1{
+ 	font-size: 100px
+ }
+#work img{
+	height: 250px;
+	width:  15%;
+}
+
+.Works{
+	justify-content: space-around;
+}
+#home img{
+	height: 200px
+	width:  15%;
+}
